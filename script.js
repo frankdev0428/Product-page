@@ -34,7 +34,15 @@ for (var tab of tabs) {
 
 
 
+let quantityValue = parseInt(document.querySelector('.input-quantity').value) 
 
+document.querySelector('.plus').addEventListener('click',()=>{
+    quantityValue = quantityValue + 1
+    document.querySelector('.input-quantity').value = `${quantityValue}`
+})
+document.querySelector('.minus').addEventListener('click',()=>{
+    if(quantityValue>1){
+        quantityValue = quantityValue - 1
     }
     document.querySelector('.input-quantity').value = `${quantityValue}`
 })
