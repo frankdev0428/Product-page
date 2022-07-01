@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 body {
     max-width: 1200px;
-    margin: 5rem 20rem;
+      margin: 3rem;  */
     font-family: 'Lato', sans-serif;
 }
 
@@ -17,6 +22,7 @@ body {
 
 img {
     max-width: 100%;
+    
 }
 
 form {
