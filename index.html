@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="product-page">
+        <div class="product-main">
+            <div class="product-picture">
+                <img src="tshirt.jpg" alt="tshirt">
+            </div>
+            <div class="product-details">
+                <h1>Awesome T-shirt</h1>
+                <div class="reviews">
+                    <span class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffc83d" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
+                        </svg>
+                    </span>
+                    <span class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffc83d" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
+                        </svg>
+                    </span>
+                    <span class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffc83d" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
+                        </svg>
+                    </span>
+                    <span class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffc83d" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
+                        </svg>
+                    </span>
+                    <span class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffc83d" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z" />
+                        </svg>
+                    </span>
+                    <span class="number">6 reviews</span>
+                </div>
+                <div class="price">
+                    <h2>$20</h2>
+                    <h2 class="discount-price" style="text-decoration: line-through;">$25</h2>
+                </div>
+                <form action="">
+                    <div>
+                        <select class="size" name="" id="">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span>Quantity:</span>
+                    </div>
+                    <div class="quantity">
+                        <div class="quantity buttons_added">
+                            <input type="button" value="-" class="minus">
+                            <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty"
+                                class="input-text qty text input-quantity" size="4" pattern="" inputmode="">
+                            <input type="button" value="+" class="plus">
+                        </div>
+                    </div>
+                    <button type="submit" onclick="preventDefault()"> ADD TO CART</button>
+                </form>
+                <p></p>
+                <div class="container">
+                    <div class="selector">
+                        <div class="tab tab-active">
+                            Description
+                        </div>
+
+                        <div class="tab">
+                            Washcare
+                        </div>
+
+
+
+                        <div class="tab">
+                            Shipping
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div id="Description" class="content-body show-active">
+                            <p>
+                                <span data-mce-fragment="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                                    anim id est laborum.</span>
+                                </p>
+                        </div>
+                        <div id="Washcare" class="content-body">
+                            <div id="details-us" class="">
+                                <p>
+                                    <b>Washing:</b>  Wash inside out with cold water with similar colors using a gentle cycle.
+                                </p>
+                                <p>
+                                    <b>Drying:</b> Tumble dry low or hang-dry.
+                                </p>
+                                <p>
+                                    <b>Ironing:</b> If ironing is necessary, iron inside-out on the lowest setting
+                                </p>
+                                <p>
+                                    <b> Alert:</b>  Do not bleach and do not dry clean.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="Shipping" class="content-body">
+                            <p>
+                                Your order will be shipped the same, or next, business day. During sale events and holidays,
+                                there may be a slightly longer duration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="share">
+                    <span>Share This:</span>
+                    <img src="share.jpg" alt="share">
+                </div>
+            </div>
+        </div>
+
+    <!--recommended products soon-->
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
